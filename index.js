@@ -1,5 +1,5 @@
 function sum() {
-	console.log(1);
+		console.log(1);
 	return [].reduce.call(arguments, (acc, el) => acc += el);
 }
 
